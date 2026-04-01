@@ -146,7 +146,7 @@
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
-    <enableHistory>false</enableHistory>
+    <enableHistory>true</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
@@ -155,8 +155,10 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Bicycle</label>
     <nameField>
+        <displayFormat>BIC-{0000}</displayFormat>
         <label>Bicycle Name</label>
-        <type>Text</type>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Bicycles</pluralLabel>
     <searchLayouts />
